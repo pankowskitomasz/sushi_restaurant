@@ -1,9 +1,21 @@
 .bg{
+    &-about{
+        @include set-background($bg__about-img,0,"center","cover","scroll");
+    }
+    &-basket{
+        @include set-background($bg__basket-img,0,"top right","cover","fixed");
+    }
     &-form{
         @include set-background($bg__form-img,0,"center","cover","scroll");
     }
     &-green{
         background-color: $color__green!important;
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"center","cover","scroll");
+    }
+    &-menu{
+        @include set-background($bg__menu-img,0,"top right","cover","fixed");
     }
 }
 .border{

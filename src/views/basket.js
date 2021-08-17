@@ -4,7 +4,7 @@ import React,{Component} from "react";
 class Basket extends Component{
     render(){
         return(          
-            <main className="minh-100vh">     
+            <main className="bg-basket minh-footer-adj">     
 
             </main>
         );

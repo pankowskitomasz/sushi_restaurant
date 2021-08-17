@@ -4,7 +4,7 @@ import RegisterForm from "../components/register-form";
 class Register extends Component{
     render(){
         return(          
-            <main className="minh-100vh">    
+            <main className="minh-footer-adj">    
                 <RegisterForm backLink={this.props.backLink}/>
             </main>
         );

@@ -4,7 +4,7 @@ import LoginForm from "../components/login-form";
 class Login extends Component{
     render(){
         return(          
-            <main className="minh-100vh">    
+            <main className="minh-footer-adj">    
                 <LoginForm backLink={this.props.backLink}/>
             </main>
         );
