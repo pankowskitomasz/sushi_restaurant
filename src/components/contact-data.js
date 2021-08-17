@@ -26,8 +26,8 @@ class ContactData extends Component{
                     </Col>
                     <Col xs={10} sm={6} className="mx-auto text-light-pink p-0 d-flex align-items-center">
                         <div className="p-5 contact-bg text-shadow">
-                            <Card className="bg-green opacity-8 border-secondary p-3">
-                                <h1 className="display-4 fw-bold font-logo text-dark-pink ">
+                            <Card className="bg-form opacity-8 border-green p-3">
+                                <h1 className="display-4 fw-bold font-logo text-green">
                                     Contact us
                                 </h1>
                                 <p className="initialism">

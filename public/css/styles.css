@@ -25,8 +25,31 @@ body, html {
 .minh-100vh {
   min-height: 100vh;
 }
+/* line 14, ../../sass/partials/_minh.scss */
+.minh-footer-adj {
+  min-height: calc( 100vh - 57px );
+  min-height: -o-calc( 100vh - 57px );
+  min-height: -moz-calc( 100vh - 57px );
+  min-height: -webkit-calc( 100vh - 57px );
+}
 
 /* line 2, ../../sass/partials/_modules.scss */
+.bg-about {
+  background-attachment: scroll;
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.bg-basket {
+  background-attachment: fixed;
+  background-image: url(../img/basket.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 8, ../../sass/partials/_modules.scss */
 .bg-form {
   background-attachment: scroll;
   background-image: url(../img/form.jpg);
@@ -34,17 +57,33 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 5, ../../sass/partials/_modules.scss */
+/* line 11, ../../sass/partials/_modules.scss */
 .bg-green {
   background-color: #5d6742 !important;
 }
+/* line 14, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 17, ../../sass/partials/_modules.scss */
+.bg-menu {
+  background-attachment: fixed;
+  background-image: url(../img/menu.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* line 10, ../../sass/partials/_modules.scss */
+/* line 22, ../../sass/partials/_modules.scss */
 .border-green {
   border-color: #5d6742 !important;
 }
 
-/* line 15, ../../sass/partials/_modules.scss */
+/* line 27, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: fixed;
   background-image: url(../img/form.jpg);
@@ -53,7 +92,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 20, ../../sass/partials/_modules.scss */
+/* line 32, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -62,21 +101,21 @@ body, html {
   background-size: cover;
 }
 
-/* line 25, ../../sass/partials/_modules.scss */
+/* line 37, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 28, ../../sass/partials/_modules.scss */
+/* line 40, ../../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 38, ../../sass/partials/_modules.scss */
+/* line 50, ../../sass/partials/_modules.scss */
 .text-green {
   color: #5d6742 !important;
 }
 
-/* line 42, ../../sass/partials/_modules.scss */
+/* line 54, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
