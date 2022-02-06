@@ -27,12 +27,17 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "message.php",
+    messages: "http://localhost/sushi_restaurant/public/message.php",
     register: "register.php",
-    users: "user.php"
+    users: "http://localhost/sushi_restaurant/public/user.php"
+};
+
+const msgCfg = {
+    pageSize: 10
 };
 
 export {
     appCfg,
-    APP_LINKS
+    APP_LINKS,
+    msgCfg
 }

@@ -63,7 +63,7 @@ class ContactForm extends Component {
         && this.state.formData.phoneNumber.length!==0
         && this.state.formData.messageText.length!==0){
             let formData = contactFormApi.getFormData(this.state.formData,cookieApi.getCookie("msgcount"));
-            contactFormApi.sendData(this.props.backNav,formData,cookieApi.getCookie,APP_LINKS.messages);
+            contactFormApi.sendData(this.props.backNav,formData,cookieApi.setCookie,APP_LINKS.messages);
             this.clearForm();
         }
     }

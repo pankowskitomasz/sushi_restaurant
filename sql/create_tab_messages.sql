@@ -1,4 +1,4 @@
-CREATE TABLE sushi_restaurant_messages(
+CREATE TABLE sushirestaurant_messages(
     id INT NOT NULL AUTO_INCREMENT,
     firstname VARCHAR(50) NOT NULL,
     lastname VARCHAR(50) NOT NULL,

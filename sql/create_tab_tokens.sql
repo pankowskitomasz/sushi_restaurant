@@ -1,4 +1,4 @@
-CREATE TABLE sushi_restaurant_tokens(
+CREATE TABLE sushirestaurant_tokens(
     id INT NOT NULL AUTO_INCREMENT,
     userid INT NOT NULL,
     logged DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -6,5 +6,5 @@ CREATE TABLE sushi_restaurant_tokens(
     token VARCHAR(40) NOT NULL,
     messages INT DEFAULT 0,
     PRIMARY KEY(id),
-    FOREIGN KEY(userid) REFERENCES sushi_restaurant_users(id)
+    FOREIGN KEY(userid) REFERENCES sushirestaurant_users(id)
 );
