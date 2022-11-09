@@ -9,7 +9,7 @@ class TitleTextTableCenter extends Component{
         return(        
             <Container fluid className={"contact-data align-items-center py-5 d-flex minh-100vh "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 pt-5">
-                    <Col xs={12} md={7} className="mx-auto minh-50vh d-flex align-items-center">
+                    <Col xs={12} md={7} lg={6} className="mx-auto minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center">
                             <h2 className="dispaly-6 fw-bold text-green">
                                 Menu and pricing
