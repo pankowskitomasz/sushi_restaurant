@@ -51,6 +51,18 @@
         color: $color__green!important;
     }
 }
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "KaushanScript";
+    letter-spacing: 2px;
+}
 textarea{
     resize: none;
+}
+@media all and (max-width:767px){
+    .navbar{
+        &-nav{
+            background-color: #333;
+            border: 1px solid #666;
+        }
+    }
 }

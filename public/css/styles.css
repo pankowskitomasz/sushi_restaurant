@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "KaushanScript";
+  src: url("../fonts/KaushanScript-Regular.ttf");
+}
 /* line 1, ../../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -27,10 +31,10 @@ body, html {
 }
 /* line 14, ../../sass/partials/_minh.scss */
 .minh-footer-adj {
-  min-height: calc( 100vh - 57px );
-  min-height: -o-calc( 100vh - 57px );
-  min-height: -moz-calc( 100vh - 57px );
-  min-height: -webkit-calc( 100vh - 57px );
+  min-height: calc( 100vh - 33px );
+  min-height: -o-calc( 100vh - 33px );
+  min-height: -moz-calc( 100vh - 33px );
+  min-height: -webkit-calc( 100vh - 33px );
 }
 
 /* line 2, ../../sass/partials/_modules.scss */
@@ -116,10 +120,23 @@ body, html {
 }
 
 /* line 54, ../../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "KaushanScript";
+  letter-spacing: 2px;
+}
+
+/* line 58, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (max-width: 767px) {
+  /* line 63, ../../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #333;
+    border: 1px solid #666;
+  }
+}
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;
